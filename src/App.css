@@ -24,6 +24,8 @@ html,
 .circle {
   width: 80vw;
   height: 80vw;
+  max-width: 450px;
+  max-height: 450px;
   border-radius: 50%;
   background-color: #00fe70;
   display: flex;
@@ -37,100 +39,58 @@ html,
 }
 
 .visualization-animation {
-  font-size: clamp(0.5rem, 4vw, 3.6rem);
+  font-size: clamp(1rem, 4.333vw, 3.6rem);
   letter-spacing: 2px;
   margin-top: 5px;
-  margin-bottom: clamp(1rem, 2vw, 2rem);
+  margin-bottom: 20px;
 }
 
 .contact {
-  font-size: clamp(1rem, 4.333vw, 3.6rem);
+  font-size: 20px;
   font-weight: 700;
 }
 
 .email {
-  font-size: clamp(1rem, 1.8vw, 3.6rem);
+  font-size: clamp(1rem, 4vw, 3.6rem);
 }
 
 .instagram {
-  margin: clamp(1rem, 1.8vw, 2rem) 0;
+  margin: 10px;
   font-size: clamp(1rem, 8vw, 3.6rem);
 }
 
 .coming-soon {
   color: #00fe70;
   margin-top: clamp(1rem, 10vw, 4rem);
-  font-family: 'musicnet';
+  font-family: "musicnet";
   font-size: clamp(1rem, 10vw, 5rem);
 }
 
 @media only screen and (min-width: 500px) {
   .visualization-animation {
-    font-size: clamp(1rem, 4vw, 3.6rem);
+    font-size: 24px;
+  }
+  .instagram {
+    margin: 20px;
+    font-size: 40px;
+  }
+  .email {
+    font-size: 20px;
+  }
+  .coming-soon {
+    font-size: clamp(1rem, 8vw, 5rem);
   }
 }
 
 @media only screen and (min-width: 768px) {
   .circle {
-    width: 60vw;
-    height: 60vw;
+    width: 500px;
+    height: 500px;
   }
   .visualization-animation {
-    font-size: clamp(1rem, 3.4vw, 3.6rem);
+    font-size: 24px;
   }
   .coming-soon {
-  font-size: clamp(1rem, 7.5vw, 5rem);
-}
-}
-
-@media only screen and (min-width: 992px) {
-  .circle {
-    max-width: 50vw;
-    max-height: 50vw;
+    font-size: 54px;
   }
-
-  .visualization-animation {
-    font-size: clamp(1rem, 3vw, 3.6rem);
-  }
-  .contact {
-    font-size: clamp(1rem, 3vw, 3.6rem);
-  }
-}
-
-@media only screen and (min-width: 1400px) {
-  .circle {
-    max-width: 40vw;
-    max-height: 40vw;
-  }
-
-  .visualization-animation {
-    font-size: clamp(1rem, 2.5vw, 3.6rem);
-  }
-  .contact {
-    font-size: clamp(1rem, 2.5vw, 3.6rem);
-  }
-  .email {
-    font-size: clamp(1rem, 1.5vw, 3.6rem);
-  }
-}
-
-@media only screen and (min-width: 1700px) {
-  .circle {
-    max-width: 30vw;
-    max-height: 30vw;
-  }
-
-  .visualization-animation {
-    font-size: clamp(1rem, 1.8vw, 3.6rem);
-  }
-  .contact {
-    font-size: clamp(1rem, 2vw, 3.6rem);
-  }
-}
-.circle-2 {
-  width: 10%;
-  max-width: 50px;
-  height: auto;
-  border-radius: 50%;
-  background-color: red;
 }
