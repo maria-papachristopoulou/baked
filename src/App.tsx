@@ -9,9 +9,9 @@ const App = () => {
         <img className="logo" src="logo.svg" alt="baked-logo" />
         <p className="visualization-animation">| visualization | animation |</p>
         <p className="contact">contact</p>
-        <p className="email">baked.archviz@gmail.com</p>
+        <p className="email">info@bakedstudio.eu</p>
         <a
-          href="https://instagram.com/baked_vis?igshid=YmMyMTA2M2Y="
+          href="https://instagram.com/baked_vis"
           target="_blank"
           rel="noreferrer"
         >
